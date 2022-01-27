@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(167, 151, 167);
+}
+ .form_container{
+     width: 300px;
+     margin: auto;
+     background-color: rgb(206, 184, 156);
+     padding: 10px 20px 10px;
+     border-radius: 5px;
+     font-family: sans-serif;
+ }
+ .header{
+font-size: 1.5em;
+font-family: cursive;
+ }
+
+ input{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+ }
+
+ button{
+     padding: 10px;
+     border-radius: 5pt;
+     margin-bottom: 10px;
+     cursor: pointer;
+     font-family: cursive;
+ }
+ label{
+     font-family: cursive;
+ }
+    .u_code input::-webkit-outer-spin-buttton,
+    input::-webkit-inner-spin-button{
+        -webkit-appearance:none;
+        margin: 0;
+    }
+ 
+    .pnumber input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    
